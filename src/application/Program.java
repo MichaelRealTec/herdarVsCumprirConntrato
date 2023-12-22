@@ -1,17 +1,17 @@
 package application;
 
-import model.enums.Color;
+import model.entities.AbstractShape;
 import model.entities.Circle;
-import model.entities.Shape;
 import model.entities.Rectangle;
+import model.enums.Color;
 
 public class Program {
 	public static void main(String[] args) {
 		// Herdar vs. Cumprir Contrato
 		
 		//Instanciando dois objetos do tipo: (Circulo, Retangulo)
-		Shape s1 = new Circle(Color.BLACK, 2.0);
-		Shape s2 = new Rectangle(Color.WHITE, 3.0, 4.0);
+		AbstractShape s1 = new Circle(Color.BLACK, 2.0);
+		AbstractShape s2 = new Rectangle(Color.WHITE, 3.0, 4.0);
 		
 		// Exibindo informações do circulo
 		System.out.println("Circle color: " + s1.getColor());

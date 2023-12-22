@@ -2,7 +2,7 @@ package model.entities;
 
 import model.enums.Color;
 
-public class Circle extends Shape{
+public class Circle extends AbstractShape{
 	// Atributos
 	private Double radius;
 	//private Double PI = 3.141516;
