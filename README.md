@@ -1,2 +1,2 @@
-# herdarVsCumprirConntrato
+# herdarVsCumprirContrato
 Herdar VS Cumprir Contrato
